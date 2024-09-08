@@ -1,0 +1,11 @@
+list1=[]
+num=int(input("enter number of the element in the list:))
+for i in range (num):
+    ele=input("enter element")
+    list1.append(ele)
+print(list1)
+ulist=[]
+for ele in list1:
+    if list1.count(ele)==1:
+        ulist.append(ele)
+print("the list contaning unique element of {} is {}".formate(list1,ulist))    
